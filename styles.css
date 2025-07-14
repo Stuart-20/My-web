@@ -1,0 +1,310 @@
+/* cultureal attractions */
+body{
+    font-size: 20px;
+}
+h1{
+    margin-bottom: 0;
+}
+.h2-cult{
+    text-align: center;
+    font-weight: 900;
+    font-size: 24;
+}
+header{
+    text-align: center;
+}
+#cultures{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.culture {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  width: 300px;
+  overflow: hidde;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.culture img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.culture:hover{
+    transform: scale(1.02);
+}
+.culture h3{
+    color: #444;
+    margin: 10px;
+}
+.culture p{
+    font-size: 0.92em;
+}
+#Events{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.event{
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-left: 70px;
+    text-align: center;
+}
+.event img{
+    width: 100%;
+    height: 200px;
+}
+.event:hover{
+   transform: scale(1.04);
+   border: 4px solid;
+   border-radius: 5px;
+}
+
+/* water-body page */
+.heading{
+    text-align: left;
+}
+#h2,#Bwindi{
+    text-align: left;
+    margin-left: 50px;
+    font-weight: 10p;
+}
+#water{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.water-img{
+    width: 320px;
+    cursor: pointer;
+   border-radius: 4px;
+   border: 3px solid #ccc;
+   translate: transform 0.3s ease;
+}
+.water-img:hover{
+    transform: scale(1.05);
+    border-color: aqua;
+}
+.water-img img{
+    width: 100%;
+    height: 150px;
+}
+
+.figure{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.figures{
+    background: white;
+    width: 300px;
+    height:100 px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+.figures p{
+    font-size:1.5em;
+    color: #4b4b4b;
+}
+.figures img{
+    width: 100%;
+   height: 300px;
+   object-fit: cover;
+   padding-bottom: 0;   
+}
+.figures:hover{
+    transform: scale(1.07);
+    border: 3px solid;
+    border-radius: 6px;
+}
+.videos{
+    width: 300px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.videos video{
+    width:100%; 
+    padding: 0;
+    border: 1px solid;  
+}
+#others{
+    text-align: left;
+}
+
+/* Nationa-park page */
+#image-np{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.images-np{
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.images-np:hover{
+    transform: scale(0.9);
+    border-color: aquamarine;
+    border: 1px solid;
+     filter: grayscale(100%);
+}
+.images-np img{
+    width: 100%;
+    height: 200px;
+}
+.falls-image{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.fall-imge{
+    width:350px ;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+.fall-imge:hover{
+    transform: scale(1.04);
+}
+.fall-imge video{
+    width: 100%;
+}
+.fall-imge img{
+    width: 100%;
+    height: 200px;
+}
+#mf img{
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+#mf img:hover{
+   filter: grayscale(100%);
+    box-shadow: 0 10px rgba(0,0.0.0.4);
+    transform: scale(1.1);
+}
+#kidepo-img{
+    cursor: pointer;
+    transition: border-radius 0.2s ease-in;
+    transition: opacity, transform, border-radius 0.3s ease;
+}
+#kidepo-img img:hover{
+    opacity: 0.4;
+    transform: scale(1.06);
+    border-radius: 50%;
+}
+#vid{
+    width: 300px;
+}
+#vid video{
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* forest-page */
+.mabira-img{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.mabira-imgs{
+    width: 380px;
+}
+.mabira-imgs video{
+    width: 100%;
+     border-radius: 5%;
+}
+.mabira-imgs img{
+    width: 100%;
+    height: 220px;
+     border-radius: 5%;
+     transition:  grayscale 0.3s ease;
+     transition: transform 0.2s ease-in;
+}
+.mabira-imgs img:hover{
+    transform: scale(1.10);
+    filter: grayscale(100%);
+}
+.mabira-imgs video:hover{
+    filter: grayscale(100%);
+}
+#into-one img{
+   cursor: pointer;
+   border-radius: 5px;
+   transition: scale 0.2s ease ;
+}
+#into-one img:hover{
+    transform: scale(1.1);
+    filter: contrast(50%);
+}
+
+/* navigation-links */ */
+ #link{
+    display: flex;
+      flex-direction: row;
+}
+a{
+    text-decoration: none; 
+}
+.lk{
+ display: inline-block;
+ border: 1px solid ;
+ border-color: #70706e;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 9px;
+  color: #059324;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+.links{
+     margin-left: 3px;
+     margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.lk:hover{
+    color: #fff;
+    background: #059324;
+    transform: scale(1.1);
+}
+.lk:active{
+    text-decoration: underline rgb(234, 4, 50);
+}
+
+/* footer-style */
+footer{
+    background: #4b4b4b;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lk {
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin-left: 0;
+  }
+  img{
+    align-items: center;
+    display: block;
+  }
+}
