@@ -307,4 +307,6 @@ footer{
     align-items: center;
     display: block;
   }
+    body{
+        color: black;}
 }
